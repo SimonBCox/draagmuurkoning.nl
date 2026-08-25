@@ -1,0 +1,6 @@
+# Ruw beeldmateriaal en gevoelige bestanden blijven buiten de publieke repo
+beeldmateriaal/
+inloggegevens*
+*login*.jpeg
+*login*.jpg
+*login*.png
