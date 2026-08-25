@@ -5,38 +5,44 @@ Constructieadvies. Statische HTML, gedeelde stijl in `css/style.css`
 (geen inline kopieën, anders dan bij coxadvies.nl). Hosting straks via
 GitHub Pages met eigen repo, zelfde beheer als coxadvies.nl.
 
-## Status: prototype
+## Status: lanceerklaar, wacht op sleutel en DNS
 
-Alles tussen `[haken]` is bewust een invulveld. Er komt niets live dat
-niet uit een echt projectdossier komt.
+Regel blijft: er komt niets op de site dat niet uit een echt
+projectdossier komt. De bedragen-belofte is tijdelijk uit de teksten
+gehaald tot de dossiers compleet zijn.
 
-## Checklist voor livegang
+Het ruwe beeldmateriaal staat in `beeldmateriaal/` en blijft via
+`.gitignore` buiten de repo. Geen inloggegevens of wachtwoorden in deze
+map bewaren; die horen in `administratie/bedrijf/`.
 
-**Besluiten (Simon + Jordy)**
-- [ ] Handelsnaam "De Draagmuurkoning" registreren bij KvK onder MAREE Aanneming B.V.
-- [ ] Contractpartij en verzekeringen bepalen; invullen op /over-ons/ en /privacy/
-- [ ] Echte projectbedragen op de site: akkoord Jordy
-- [ ] Aanspreekvorm definitief (site staat nu op "je")
-- [ ] Werkgebied definitief (nu: Betuwe, Nijmegen, Arnhem als anker)
-- [ ] Hoofdnummer en mailadres (info@draagmuurkoning.nl waarheen?)
+## Nog te doen voor livegang
 
-**Inhoud**
-- [ ] Drie projecten invullen: foto's Jordy + bedragen + constructiegegevens
-      (kaarten op / en /projecten/, detailpagina's via sjabloon-project.html)
+**Blokkerend**
+- [ ] GitHub-repo aanmaken (bijv. SimonBCox/draagmuurkoning.nl, publiek),
+      remote koppelen, pushen, Pages aanzetten op de main-branch
+- [ ] DNS bij de registrar: A-records op de apex naar 185.199.108.153,
+      185.199.109.153, 185.199.110.153 en 185.199.111.153, plus CNAME
+      `www` naar `simonbcox.github.io`; daarna in GitHub Pages het domein
+      invullen en Enforce HTTPS aanvinken (CNAME-bestand staat klaar)
+- [ ] Web3Forms-sleutel aanmaken op web3forms.com en invullen bij
+      `access_key` in index.html; afleveradressen staan in hún dashboard,
+      niet in het formulier (les van coxadvies.nl)
+
+**Kan na livegang, wel snel oppakken**
+- [ ] WhatsApp-nummer in de knop "App een foto van je muur" (nu: link naar contactblok)
+- [ ] JSON-LD op de homepage activeren zodra telefoon en plaats vaststaan
+- [ ] Projectcijfers uit de dossiers: plaats, overspanning, profiel,
+      werkdagen, bedrag; dan meta-regel en price-badge terugzetten op de
+      kaarten (aanwijzingen staan als comments in de HTML) en de
+      bedragen-belofte terugbrengen in de teksten
+- [ ] Detailpagina's per project via sjabloon-project.html + sitemap aanvullen
 - [ ] Portretfoto's Jordy en Simon (home + /over-ons/)
-- [ ] Videoloop hero (mp4 H.264, 15 tot 20 s, max 8 MB) + posterframe;
-      tot die tijd: foto-hero
-- [ ] Favicon en og:image maken
-- [ ] JSON-LD op de homepage activeren (staat in comment) met echte NAP-gegevens
-
-**Techniek**
-- [ ] Nieuwe GitHub-repo aanmaken, deze map erin, Pages aanzetten
-- [ ] DNS: A-records apex naar GitHub Pages, CNAME www; HTTPS aanvinken
-      (CNAME-bestand staat al klaar met www.draagmuurkoning.nl)
-- [ ] Web3Forms: nieuwe sleutel aanmaken, afleveradressen in het dashboard
-      instellen (les coxadvies: afleveradres staat in hun dashboard, niet in
-      het formulier), action + redirect naar /bedankt/ invullen
-- [ ] WhatsApp-links invullen in de knoppen op de homepage
+- [ ] Verzekeringen (CAR MAREE, beroepsaansprakelijkheid Cox) bevestigen
+      en toevoegen op /over-ons/
+- [ ] Handelsnaam "De Draagmuurkoning" registreren onder MAREE Aanneming
+      B.V.; nodig voor het Google-bedrijfsprofiel
+- [ ] Hero-videoloop zodra er liggend 1080p-materiaal is (mp4 H.264,
+      15 tot 20 s, max 8 MB, geluidloos, met posterframe)
 
 **Na livegang**
 - [ ] Google-bedrijfsprofiel aanmaken (kan pas na handelsnaamregistratie)
