@@ -54,18 +54,10 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="projects" style="grid-template-columns:1fr">
-      <article class="project">
-        <div class="ba" style="--pos:50%">
-          <div class="ba-layer ba-na"><span class="ph">foto na</span></div>
-          <div class="ba-layer ba-voor"><span class="ph">foto voor</span></div>
-          <span class="ba-tag l">Voor</span>
-          <span class="ba-tag r">Na</span>
-          <div class="ba-divider" aria-hidden="true"></div>
-          <div class="ba-handle" aria-hidden="true">&#8596;</div>
-          <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Vergelijk voor en na">
-        </div>
-      </article>
+    <div class="galerij">
+      <!-- Eén figure per foto, chronologisch door de klus heen; onderschrift = wat je ziet, in gewone woorden -->
+      <figure><img src="[pad-naar-foto]" alt="[korte beschrijving]"><figcaption>[Wat gebeurt hier, één zin.]</figcaption></figure>
+      <figure><img src="[pad-naar-foto]" alt="[korte beschrijving]"><figcaption>[Wat gebeurt hier, één zin.]</figcaption></figure>
     </div>
 
     <div class="prose" style="margin-top:40px">
@@ -133,13 +125,5 @@
   </div>
 </footer>
 
-<script>
-  document.querySelectorAll('.ba').forEach(function(ba){
-    var range = ba.querySelector('.ba-range');
-    range.addEventListener('input', function(){
-      ba.style.setProperty('--pos', range.value + '%');
-    });
-  });
-</script>
 </body>
 </html>
