@@ -154,10 +154,6 @@ a{color:inherit}
 .project-info h3{font-size:1.08rem;font-weight:700;margin-bottom:4px}
 .project-info .meta{font-size:.88rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .project-info p{font-size:.93rem;color:var(--muted);margin-top:10px}
-.project-info .price{
-  display:inline-block;margin-top:12px;font-weight:700;font-size:.95rem;
-  color:var(--gold-deep);border:1.5px solid var(--gold);border-radius:999px;padding:5px 15px;
-}
 .proto-note{
   margin-top:26px;font-size:.85rem;color:var(--muted);max-width:66ch;
   border-left:3px solid var(--gold);padding-left:14px;
