@@ -56,9 +56,10 @@ a{color:inherit}
 .nav-bar{position:sticky;top:0;z-index:50;background:rgba(18,20,23,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--coal-line)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink-inv)}
-.brand svg{display:block}
-.brand .b-name{font-family:"Anton",sans-serif;font-size:1.05rem;letter-spacing:.08em;text-transform:uppercase}
-.brand .b-name span{color:var(--gold)}
+.brand img{display:block;height:30px;width:auto}
+@media(min-width:700px){.brand img{height:34px}}
+.f-brand .brand img{height:52px}
+@media(min-width:700px){.f-brand .brand img{height:58px}}
 .nav-links{display:none;gap:26px}
 @media(min-width:860px){.nav-links{display:flex}}
 .nav-links a{font-size:.93rem;font-weight:600;text-decoration:none;color:var(--muted-inv)}
