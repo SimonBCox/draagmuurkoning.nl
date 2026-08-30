@@ -47,6 +47,9 @@ a{color:inherit}
   transition:transform .15s ease,background .2s ease;
 }
 .btn:hover{background:#eeb659;transform:translateY(-1px)}
+.btn .ico{width:19px;height:19px;fill:currentColor;flex:none}
+.btn.whatsapp{background:#25D366;color:#0b2e18}
+.btn.whatsapp:hover{background:#37e178}
 .btn.ghost{background:transparent;color:var(--ink-inv);border:1.5px solid #4a4e55}
 .btn.ghost:hover{background:rgba(255,255,255,.06)}
 .btn.dark{background:var(--coal);color:var(--ink-inv)}
