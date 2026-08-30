@@ -16,7 +16,6 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
 <!-- Nog invullen voor livegang:
-     - Web3Forms-sleutel in het formulier (access_key)
      - WhatsApp-nummer in de app-knop
      - JSON-LD hieronder: telefoon en plaats invullen, dan activeren
      - projectkaarten: plaats, overspanning, profiel, werkdagen en bedrag uit de dossiers
@@ -264,7 +263,7 @@
     </div>
     <form action="https://api.web3forms.com/submit" method="POST">
       <!-- Sleutel aanmaken op web3forms.com; afleveradressen staan in het Web3Forms-dashboard, niet hier -->
-      <input type="hidden" name="access_key" value="HIER-WEB3FORMS-SLEUTEL">
+      <input type="hidden" name="access_key" value="579e34f5-99f2-4055-a920-9587d5b02177">
       <input type="hidden" name="redirect" value="https://www.draagmuurkoning.nl/bedankt/">
       <input type="hidden" name="subject" value="Aanvraag via draagmuurkoning.nl">
       <div class="form-row">
@@ -291,6 +290,7 @@
         <label for="msg">Wat wil je laten doorbreken?</label>
         <textarea id="msg" name="bericht" rows="4" placeholder="Bijvoorbeeld: muur tussen keuken en woonkamer, ongeveer 4 meter, jaren-60 rijtjeshuis."></textarea>
       </div>
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
       <button class="btn" type="submit">Verstuur aanvraag</button>
     </form>
   </div>
