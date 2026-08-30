@@ -54,7 +54,10 @@ a{color:inherit}
 
 /* ── nav ── */
 .nav-bar{position:sticky;top:0;z-index:50;background:rgba(18,20,23,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--coal-line)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
+/* Let op: elementen die zelf .wrap zijn mogen alleen padding-top/bottom zetten.
+   De sluitvorm (padding: x 0) haalt de zijmarge van .wrap weg en dan plakt de
+   tekst op mobiel tegen de schermrand. */
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:15px;padding-bottom:15px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink-inv)}
 .brand img{display:block;height:30px;width:auto}
 @media(min-width:700px){.brand img{height:34px}}
@@ -80,7 +83,7 @@ a{color:inherit}
   content:"";position:absolute;inset:0;
   background:linear-gradient(100deg,rgba(16,18,21,.92) 0%,rgba(16,18,21,.62) 45%,rgba(16,18,21,.3) 100%);
 }
-.hero-inner{position:relative;padding:clamp(64px,10vw,140px) 0 clamp(56px,8vw,110px)}
+.hero-inner{position:relative;padding-top:clamp(64px,10vw,140px);padding-bottom:clamp(56px,8vw,110px)}
 .hero h1{font-size:clamp(2.9rem,8vw,5.6rem);max-width:13ch;text-wrap:balance}
 .hero h1 em{font-style:normal;color:var(--gold)}
 .hero .lead{
@@ -236,7 +239,7 @@ dialog.lightbox::backdrop{background:rgba(10,12,14,.95)}
 .cta-band{background:var(--coal);color:var(--ink-inv)}
 .cta-band .inner{
   display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;
-  padding:clamp(36px,5vw,56px) 0;
+  padding-top:clamp(36px,5vw,56px);padding-bottom:clamp(36px,5vw,56px);
 }
 .cta-band h2{font-size:clamp(1.6rem,3.5vw,2.4rem);max-width:22ch}
 .cta-band p{color:var(--muted-inv);margin-top:8px;max-width:46ch}
