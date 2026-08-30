@@ -136,7 +136,6 @@ a{color:inherit}
 /* ── projecten ── */
 .projects{display:grid;grid-template-columns:1fr;gap:clamp(24px,4vw,40px)}
 @media(min-width:700px){.projects{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:1040px){.projects{grid-template-columns:repeat(3,1fr)}}
 .project{background:var(--concrete);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
 .section.white .project{background:var(--surface)}
 /* galerij op projectdetailpagina's: gestapelde foto's met onderschrift */
