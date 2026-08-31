@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Bij elk nieuw project: de projectpagina hier toevoegen. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.draagmuurkoning.nl/</loc></url>
-  <url><loc>https://www.draagmuurkoning.nl/draagmuur-doorbreken/</loc></url>
-  <url><loc>https://www.draagmuurkoning.nl/projecten/</loc></url>
-  <url><loc>https://www.draagmuurkoning.nl/over-ons/</loc></url>
-  <url><loc>https://www.draagmuurkoning.nl/faq/</loc></url>
+<!-- Bij elk nieuw project: de projectpagina hier toevoegen, in beide talen. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.draagmuurkoning.nl/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.draagmuurkoning.nl/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/draagmuur-doorbreken/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/draagmuur-doorbreken/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/load-bearing-wall-removal/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/projecten/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/projecten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/projects/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/over-ons/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/over-ons/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/about/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/faq/"/>
+  </url>
+  <url><loc>https://www.draagmuurkoning.nl/en/</loc></url>
+  <url><loc>https://www.draagmuurkoning.nl/en/load-bearing-wall-removal/</loc></url>
+  <url><loc>https://www.draagmuurkoning.nl/en/projects/</loc></url>
+  <url><loc>https://www.draagmuurkoning.nl/en/about/</loc></url>
+  <url><loc>https://www.draagmuurkoning.nl/en/faq/</loc></url>
 </urlset>

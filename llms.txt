@@ -32,3 +32,15 @@ profiel en welke opleggingen nodig zijn.
 
 - MAREE Aanneming B.V. (uitvoering): https://www.aannemingmaree.nl
 - Cox Constructieadvies (constructie): https://www.coxadvies.nl
+
+## Engelse versie
+
+De site is tweetalig. Alle pagina's bestaan ook in het Engels onder /en/,
+voor bewoners die geen Nederlands spreken; het team werkt in het Engels
+en handelt de vergunningsprocedure met de gemeente namens de klant af.
+
+- https://www.draagmuurkoning.nl/en/ : English home page
+- https://www.draagmuurkoning.nl/en/load-bearing-wall-removal/ : how the job works
+- https://www.draagmuurkoning.nl/en/projects/ : completed jobs
+- https://www.draagmuurkoning.nl/en/about/ : the team
+- https://www.draagmuurkoning.nl/en/faq/ : questions and answers
