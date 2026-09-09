@@ -151,6 +151,7 @@ a{color:inherit}
 @media(min-width:700px){.projects{grid-template-columns:repeat(2,1fr)}}
 .project{background:var(--concrete);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
 .section.white .project{background:var(--surface)}
+.project img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}
 /* galerij op projectdetailpagina's: gestapelde foto's met onderschrift */
 .galerij{display:grid;gap:clamp(20px,3vw,32px);max-width:880px}
 .galerij figure{margin:0}
