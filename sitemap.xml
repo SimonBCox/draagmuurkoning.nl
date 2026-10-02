@@ -13,6 +13,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/load-bearing-wall-removal/"/>
   </url>
   <url>
+    <loc>https://www.draagmuurkoning.nl/kennisbank/hoe-herken-je-een-draagmuur/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/kennisbank/hoe-herken-je-een-draagmuur/"/>
+  </url>
+  <url>
     <loc>https://www.draagmuurkoning.nl/projecten/</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/projecten/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/projects/"/>

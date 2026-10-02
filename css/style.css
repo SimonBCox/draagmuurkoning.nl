@@ -273,7 +273,8 @@ form{display:grid;gap:14px}
 footer{background:#0d0f11;color:#b9bcb8;padding:54px 0 0;font-size:.92rem}
 .f-grid{display:grid;grid-template-columns:1fr;gap:36px;padding-bottom:44px}
 @media(min-width:560px){.f-grid{grid-template-columns:1fr 1fr}}
-@media(min-width:900px){.f-grid{grid-template-columns:1.5fr 1fr 1.5fr;gap:48px}}
+/* Eén rij, wat er ook in de voet staat: sinds de kennisbankkolom hebben sommige pagina's vier kolommen en andere drie. */
+@media(min-width:900px){.f-grid{grid-template-columns:1.5fr;grid-auto-columns:1fr;grid-auto-flow:column;gap:48px}}
 .f-brand .brand{margin-bottom:16px}
 .f-brand p{max-width:36ch;line-height:1.6;margin:0}
 .f-head{
