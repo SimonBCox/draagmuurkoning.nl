@@ -36,6 +36,8 @@ GEDEELD = [
     ("Eén team, twee bedrijven", "One team, two companies"),
     ("Uitvoering en afwerking · KvK 74031937", "Execution and finishing · CoC 74031937"),
     ("Berekening en tekenwerk · KvK 86134191", "Structural design and drawings · CoC 86134191"),
+    ('<span class="f-head">Ook van ons</span>', '<span class="f-head">Also from us</span>'),
+    ("De keukenruimte klaar voor de montage", "Kitchen preparation, site in Dutch"),
     ('aria-label="Paginaoverzicht"', 'aria-label="Site pages"'),
     ("App een foto van je muur", "WhatsApp a photo of your wall"),
     ("Stuur een appje: 06 1590 2335", "Send a WhatsApp: +31 6 1590 2335"),
