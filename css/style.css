@@ -126,7 +126,7 @@ a{color:inherit}
 .prose h2:first-child{margin-top:0}
 .prose p{margin-bottom:14px}
 .prose p.answer{font-size:1.12rem;font-weight:500;max-width:62ch}
-.prose ul{margin:0 0 14px 22px}
+.prose ul,.prose ol{margin:0 0 14px 22px}
 .prose li{margin-bottom:7px}
 .prose a{color:var(--gold-deep);font-weight:600}
 
