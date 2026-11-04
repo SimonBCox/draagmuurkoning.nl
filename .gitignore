@@ -4,3 +4,8 @@ inloggegevens*
 *login*.jpeg
 *login*.jpg
 *login*.png
+
+# Interne notities, niet publiceren
+VINDBAARHEID.md
+
+__pycache__/

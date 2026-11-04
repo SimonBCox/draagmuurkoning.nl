@@ -2,8 +2,9 @@
 
 > De Draagmuurkoning is de doorbraakservice van MAREE Aanneming en Cox
 > Constructieadvies: draagmuren doorbreken van berekening tot afwerking,
-> door één team. Werkgebied: Betuwe, Nijmegen en Arnhem, heel Nederland
-> op aanvraag.
+> door één team. Werkgebied: heel Nederland, waaronder Amsterdam,
+> Utrecht, Rotterdam, Den Haag, Eindhoven, Arnhem en Nijmegen. Het team
+> werkt ook in het Engels.
 
 ## Dienst
 
@@ -41,7 +42,8 @@ profiel en welke opleggingen nodig zijn.
 ## Engelse versie
 
 De site is tweetalig. Alle pagina's bestaan ook in het Engels onder /en/,
-voor bewoners die geen Nederlands spreken; het team werkt in het Engels
+voor bewoners die geen Nederlands spreken, zoals expats in Amsterdam,
+Utrecht, Rotterdam, Den Haag en Eindhoven; het team werkt in het Engels
 en handelt de vergunningsprocedure met de gemeente namens de klant af.
 
 - https://www.draagmuurkoning.nl/en/ : English home page

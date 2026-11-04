@@ -98,8 +98,8 @@ BEDANKT = [
     ("Je aanvraag is binnen. Je hoort binnen één werkdag van ons.", "Your request has arrived. You will hear from us within one working day."),
     (">Gelukt<", ">Thank you<"),
     ("Je aanvraag is binnen", "Your request has arrived"),
-    ("Bedankt. We kijken naar je bericht en je foto's en je hoort binnen één werkdag van ons: met een concreet voorstel, of met de vragen die we nog hebben. Kijk intussen gerust bij <a href=\"../projecten/\" style=\"color:var(--gold)\">onze projecten</a> voor een situatie die op de jouwe lijkt.",
-     "Thank you. We will look at your message and your photos, and you will hear from us within one working day: with a concrete proposal, or with the questions we still have. In the meantime, have a look at <a href=\"/en/projects/\" style=\"color:var(--gold)\">our projects</a> for a situation like yours."),
+    ("Bedankt. Heb je foto's van de muur en de ruimte erboven, app ze dan naar <a href=\"https://wa.me/31615902335\" style=\"color:var(--gold)\">06 1590 2335</a> of mail ze naar info@draagmuurkoning.nl. We kijken naar je bericht en je foto's en je hoort binnen één werkdag van ons: met een concreet voorstel, of met de vragen die we nog hebben. Kijk intussen gerust bij <a href=\"../projecten/\" style=\"color:var(--gold)\">onze projecten</a> voor een situatie die op de jouwe lijkt.",
+     "Thank you. If you have photos of the wall and the room above it, WhatsApp them to <a href=\"https://wa.me/31615902335\" style=\"color:var(--gold)\">+31 6 1590 2335</a> or email them to info@draagmuurkoning.nl. We will look at your message and your photos, and you will hear from us within one working day: with a concrete proposal, or with the questions we still have. In the meantime, have a look at <a href=\"/en/projects/\" style=\"color:var(--gold)\">our projects</a> for a situation like yours."),
     ("Terug naar de homepage", "Back to the home page"),
 ]
 

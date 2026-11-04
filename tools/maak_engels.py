@@ -136,13 +136,17 @@ CONTACT = [
     ("Bijvoorbeeld: muur tussen keuken en woonkamer, ongeveer 4 meter, jaren-60 rijtjeshuis.",
      "For example: the wall between kitchen and living room, about 4 metres, 1960s terraced house."),
     ("Verstuur aanvraag", "Send request"),
+    ('Foto\'s van de muur en de ruimte erboven kun je na het versturen appen naar <a href="https://wa.me/31615902335" style="color:var(--gold)">06 1590 2335</a> of mailen naar info@draagmuurkoning.nl.',
+     'After sending, you can WhatsApp photos of the wall and the room above it to <a href="https://wa.me/31615902335" style="color:var(--gold)">+31 6 1590 2335</a> or email them to info@draagmuurkoning.nl.'),
 ]
 
 HOME = CARROUSEL + CONTACT + [
     ("Draagmuur doorbreken: berekening, vergunning en uitvoering | De Draagmuurkoning",
      "Load-bearing wall removal in the Netherlands, in English | De Draagmuurkoning"),
-    ("Draagmuur doorbreken van berekening tot strakke wand. Eén team dat rekent, tekent, de vergunning regelt, het staal zet en afwerkt. Betuwe, Nijmegen en Arnhem.",
-     "Load-bearing wall removal handled end to end, in English: structural calculation, drawings, the municipal permit, the steel and the finished wall. Betuwe, Nijmegen and Arnhem."),
+    ("Draagmuur doorbreken van berekening tot strakke wand. Eén team dat rekent, tekent, de vergunning regelt, het staal zet en afwerkt. In heel Nederland, ook in Amsterdam, Utrecht en Rotterdam.",
+     "Load-bearing wall removal handled end to end, in English: structural calculation, drawings, the municipal permit, the steel and the finished wall. Anywhere in the Netherlands, including Amsterdam, Utrecht and Rotterdam."),
+    ("De Draagmuurkoning is de doorbraakservice van MAREE Aanneming en Cox Constructieadvies, van berekening tot afwerking, in heel Nederland en ook in het Engels.",
+     "Draagmuurkoning removes load-bearing walls anywhere in the Netherlands, from the structural calculation and the permit to the finished wall, and works in English. A partnership of MAREE Aanneming and Cox Constructieadvies."),
     ("Eén team dat rekent, tekent, de vergunning regelt, het staal zet en afwerkt. Eén aanspreekpunt en één planning.",
      "One team for the calculation, the drawings, the permit, the steel and the finishing. One point of contact and one schedule."),
     ("Draagmuur doorbreken · van berekening tot afwerking",
