@@ -2,12 +2,12 @@
 """Vervolg: teksten van de subpagina's en de omzetting zelf."""
 
 DIENST = [
-    ("Draagmuur doorbreken: zo werkt het, wat het kost en wie het regelt | De Draagmuurkoning",
+    ("Dragende muur doorbreken: zo werkt het, wat het kost en wie het regelt | De Draagmuurkoning",
      "Removing a load-bearing wall in the Netherlands: how it works | De Draagmuurkoning"),
-    ("Een draagmuur doorbreken kan bijna altijd: er komt een stalen ligger voor in de plaats. Berekening, vergunning, uitvoering en afwerking door één team.",
+    ("Een dragende muur of draagmuur doorbreken kan bijna altijd: er komt een stalen ligger voor in de plaats. Berekening, vergunning, uitvoering en afwerking door één team.",
      "A load-bearing wall can nearly always be opened up: a steel beam takes over the load. Calculation, permit, execution and finishing by one team."),
-    ("Draagmuur doorbreken: zo werkt het | De Draagmuurkoning", "How removing a load-bearing wall works | De Draagmuurkoning"),
-    ("Een draagmuur doorbreken kan bijna altijd. Berekening, vergunning, uitvoering en afwerking door één team.",
+    ("Dragende muur doorbreken: zo werkt het | De Draagmuurkoning", "How removing a load-bearing wall works | De Draagmuurkoning"),
+    ("Een dragende muur doorbreken kan bijna altijd. Berekening, vergunning, uitvoering en afwerking door één team.",
      "A load-bearing wall can nearly always be opened up. Calculation, permit, execution and finishing by one team."),
     (">De dienst<", ">The service<"),
     ("<h1>Draagmuur doorbreken</h1>", "<h1>Removing a load-bearing wall</h1>"),
