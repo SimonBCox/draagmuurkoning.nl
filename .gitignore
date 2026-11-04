@@ -7,5 +7,7 @@ inloggegevens*
 
 # Interne notities, niet publiceren
 VINDBAARHEID.md
+LLM_METING.md
+DEUR_IN_DRAAGMUUR.md
 
 __pycache__/
