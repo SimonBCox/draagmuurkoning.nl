@@ -21,9 +21,21 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/deur-maken-in-draagmuur/"/>
   </url>
   <url>
+    <loc>https://www.draagmuurkoning.nl/dragende-muur-stutten/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/dragende-muur-stutten/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/draagmuur-slopen/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/draagmuur-slopen/"/>
+  </url>
+  <url>
     <loc>https://www.draagmuurkoning.nl/projecten/</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/projecten/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/projects/"/>
+  </url>
+  <url>
+    <loc>https://www.draagmuurkoning.nl/projecten/bemmel/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/projecten/bemmel/"/>
   </url>
   <url>
     <loc>https://www.draagmuurkoning.nl/over-ons/</loc>

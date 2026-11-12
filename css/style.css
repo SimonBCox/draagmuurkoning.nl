@@ -157,8 +157,12 @@ a{color:inherit}
 .galerij figure{margin:0}
 .galerij img{width:100%;border-radius:var(--r);display:block}
 .galerij figcaption{font-size:.92rem;color:var(--muted);margin-top:8px;max-width:66ch}
+/* twee foto's naast elkaar in een uitlegpagina, onder elkaar op een telefoon */
+.galerij.duo{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));max-width:none;align-items:start}
 .project-info{padding:20px 22px 22px}
 .project-info h3{font-size:1.08rem;font-weight:700;margin-bottom:4px}
+.project-info h3 a{text-decoration:none}
+.project-info h3 a:hover{text-decoration:underline}
 .project-info .meta{font-size:.88rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .project-info p{font-size:.93rem;color:var(--muted);margin-top:10px}
 .proto-note{
