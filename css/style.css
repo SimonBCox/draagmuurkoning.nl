@@ -305,3 +305,26 @@ footer{background:#0d0f11;color:#b9bcb8;padding:54px 0 0;font-size:.92rem}
   .btn{transition:none}
   .cover img{transition:none}
 }
+
+/* ── contact in de kop, alleen als het menu is ingeklapt ── */
+.kop-contact{display:flex;gap:8px;flex:none}
+.kop-contact .rond{
+  display:grid;place-items:center;width:40px;height:40px;border-radius:50%;
+  text-decoration:none;color:var(--ink-inv);border:1px solid #4a4e55;
+}
+.kop-contact .rond svg{width:19px;height:19px}
+.kop-contact .wa svg{color:#25D366}
+.kop-contact .bel svg{width:17px;height:17px}
+.kop-contact .rond:hover,.kop-contact .rond:focus-visible{border-color:var(--gold)}
+@media(min-width:860px){.kop-contact{display:none}}
+@media(max-width:859px){.nav-inner{gap:10px}.nav-inner .brand{margin-right:auto}}
+@media(max-width:599px){.nav-cta{display:none}}
+@media(max-width:400px){.nav-inner .brand img{height:22px}}
+
+/* ── knoppen in de cta-band en contactregels ── */
+.cta-acties{display:flex;flex-wrap:wrap;gap:12px}
+.contact .belregel{margin-top:14px;color:var(--muted-inv)}
+.contact .belregel a{color:var(--gold);font-weight:600;text-decoration:none}
+.f-brand .f-contact{margin-top:14px;line-height:1.8}
+.f-contact a{color:#dddedb;text-decoration:none}
+.f-contact a:hover{color:var(--gold)}
