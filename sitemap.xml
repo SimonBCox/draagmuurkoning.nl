@@ -29,6 +29,10 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/draagmuur-slopen/"/>
   </url>
   <url>
+    <loc>https://www.draagmuurkoning.nl/draagmuur-appartement/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/draagmuur-appartement/"/>
+  </url>
+  <url>
     <loc>https://www.draagmuurkoning.nl/projecten/</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.draagmuurkoning.nl/projecten/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.draagmuurkoning.nl/en/projects/"/>
